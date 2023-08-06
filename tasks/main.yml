@@ -1,0 +1,3 @@
+- name: "Install ansible-lint application"
+  ansible.builtin.include_tasks: install/main.yml
+

@@ -1,0 +1,7 @@
+- name: "Install the 'sysutils/py-ansible-lint' application package"
+  ansible.builtin.package:
+    name: sysutils/py-ansible-lint
+    state: present
+  become: true
+  become_user: root
+

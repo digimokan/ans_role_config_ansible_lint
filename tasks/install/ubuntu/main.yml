@@ -1,0 +1,7 @@
+- name: "Install the 'ansible-lint' application package"
+  ansible.builtin.package:
+    name: ansible-lint
+    state: present
+  become: true
+  become_user: root
+
