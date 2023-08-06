@@ -1,3 +1,6 @@
 # command to execute to run ansible-lint
 ansible_lint_main_cmd: 'ansible-lint'
 
+# alternate command to execute to run ansible-lint
+ansible_lint_alt_cmd: 'ansible_lint'
+
