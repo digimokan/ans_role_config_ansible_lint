@@ -53,7 +53,7 @@ Install and configure the ansible-lint ansible source-file linter.
        - name: "Install and configure the ansible-lint ansible source-file linter"
          ansible.builtin.include_role:
            name: ans_role_config_ansible_lint
-           public: yes
+           public: true
    ```
 
 ## Role Options
